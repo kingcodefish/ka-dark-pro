@@ -24,6 +24,7 @@
 .subject-children-outer-container {
 	background-color: #252525 !important;    
 }
+
 /** --- COMPUTER PROGRAMMING --- **/
 .computing, .computing.subject-color {
 	background-color:rgb(46,80,32) !important;    
@@ -52,8 +53,8 @@ html .computing .domain-color {
 .success-highlight .replies-triangle:after {
     border-bottom-color: #f1f6ff !important;
 }
-/** --- SCIENCE & ENGINEERING --- **/
 
+/** --- SCIENCE & ENGINEERING --- **/
 .moduleDefault_1qaj0pm-o_O-moduleCustom_ddy8ma-o_O-moduleFirst_cpfhgr,
 .moduleDefault_1qaj0pm-o_O-moduleCustom_ddy8ma,
 .moduleDefault_1qaj0pm-o_O-moduleCustom_ddy8ma-o_O-moduleLast_vadtbo {
@@ -88,8 +89,8 @@ html .computing .domain-color {
     color: #f32287 !important;
     border-color: #f32287 !important;
 }
-/** --- MENU --- **/
 
+/** --- MENU --- **/
 .wrapper_e1iyoj-o_O-headerActive_jq320i,
 .header_t1ip60-o_O-headerFullBleed_1fypdx4,
 .wrapper_14ispp,
@@ -132,8 +133,11 @@ html .computing .domain-color {
 .nav-bar {
     border-top: none !important;
 }
-/** --- MENU DROPDOWN --- **/
+#page-container {
+    margin-top: 61px;
+}
 
+/** --- MENU DROPDOWN --- **/
 .dropdown_9thx3o-o_O-dropdownOpen_2jlos-o_O-dropdown_2oma9m {
     background: rgba(31, 31, 31, 0.9) !important;
 }
@@ -186,8 +190,8 @@ html .computing .domain-color {
     background-color: #383737 !important;
     color: #82a0ff !important;
 }
-/** --- USER PROFILE --- **/
 
+/** --- USER PROFILE --- **/
 .extraModulePadding_wbg08x,
 .moduleList_7ol0hf,
 #outer-wrapper:not(.scratchpad-outermost-wrapper),
@@ -213,9 +217,11 @@ html .computing .domain-color {
 }
 .profile-widget {
     border: 2px solid #82a0ff;
+    border-color: #82a0ff !important;
 }
 .profile-widget-header {
     border-bottom: 2px solid #82a0ff;
+    border-bottom-color: #82a0ff !important;
     background: #1F1F1F;
 }
 .profile-widget-name {
@@ -228,8 +234,8 @@ html .computing .domain-color {
     color: #FFF !important;
     text-decoration: none !important;
 }
-/** --- FOOTER --- **/
 
+/** --- FOOTER --- **/
 .rootStyle_1ygk6y0 {
     background-color: #1F1F1F !important;
 }
